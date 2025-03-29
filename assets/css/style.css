@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/assets/images/layer.png);
+  background-repeat: no-repeat;
+  background-position: 300px;
+  background-position: fixed;
+  color: #ffffff;
+  text-align: center;
+  background-color: #000000;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.text {
+  max-width: 400px;
+  margin: 50px;
+}
+
+.text h2 {
+  width: 275px;
+  font-family: "Sawarabi Gothic";
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+.text p {
+  width: 327px;
+  font-family: "Lexend Deca";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+}
+.text h3 {
+  width: 302px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 110%;
+  letter-spacing: -0.03em;
+}
+.social-icons a {
+  margin: 10px;
+  text-decoration: none;
+  align-items: center;
+}
+.social-icons a img {
+  margin-bottom: -100px;
+  width: 20px;
+  height: 20px;
+}
+.social-icons a img:hover {
+  background: #403cff;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-family: "Reality Hyper";
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  position: relative;
+  background-image: url(/assets/images/chara.png);
+  background-repeat: no-repeat;
+}
+
+.subtitle {
+  display: block;
+  font-family: "Sawarabi Gothic";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.description {
+  width: 461px;
+  font-family: "Lexend Deca";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4f4;
+}
+.character-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.character-card {
+  margin-left: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  width: 40%;
+}
+
+.character-name {
+  width: 199px;
+  font-family: "Reality Hyper";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0.04em;
+  margin-bottom: 10px;
+}
+
+.character-info {
+  width: 408px;
+  font-family: "Lexend Deca";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4f4;
+  margin-bottom: 20px;
+}
+
+.stats p {
+  margin: 10px 0;
+font-family: 'Lexend Deca';
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #F4F4F4;
+}
+.bar {
+  display: inline-block;
+  width: 40px;
+  height: 4px;
+  background: #ffffff;
+}
+.character-display {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.character-display img {
+  width:500px;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
+
+/* NAVIGATION BUTTONS */
+.nav-buttons {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.nav-buttons button {
+  background-color: #333;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.nav-buttons button:hover {
+  background-color: #555;
+}
+@media (max-width: 768px) {
+  .character-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .character-card,
+  .character-display {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .nav-buttons {
+    position: static;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+  .text {
+    text-align: center;
+  }
+}

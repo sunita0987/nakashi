@@ -25,6 +25,9 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
+  background-image: url(/assets/images/layer.png);
+  background-repeat: no-repeat;
+  background-position: 150px;
 }
 .text {
   max-width: 400px;
@@ -115,7 +118,7 @@ body {
   position: relative;
   background-image: url(/assets/images/2layer.png);
   background-repeat: no-repeat;
-  
+
 }
 .character-card {
   margin-left: 200px;

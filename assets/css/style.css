@@ -68,8 +68,8 @@ body {
 }
 
 .image-container img {
-  max-width: 100%;
-  height: auto;
+  width:500px;
+  height: 700px;
 }
 
 .hero {

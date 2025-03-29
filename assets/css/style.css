@@ -18,6 +18,9 @@ body {
   justify-content: center;
   height: 100vh;
 }
+.top-image{
+  margin-left: -70%;
+}
 
 
 .content {

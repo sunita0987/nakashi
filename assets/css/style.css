@@ -19,6 +19,7 @@ body {
   height: 100vh;
 }
 
+
 .content {
   display: flex;
   align-items: center;
@@ -176,7 +177,7 @@ body {
 /* NAVIGATION BUTTONS */
 .nav-buttons {
   position: absolute;
-  top: -10%;
+  top: 10%;
   right: 10px;
   transform: translateY(-50%);
 }

@@ -111,7 +111,7 @@ body {
   position: relative;
 }
 .character-card {
-  margin-left: 100px;
+  margin-left: 200px;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   padding: 20px;
@@ -137,15 +137,16 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4f4;
   margin-bottom: 20px;
+  margin-left: -10px;
 }
 
 .stats p {
   margin: 10px 0;
-font-family: 'Lexend Deca';
-font-weight: 600;
-font-size: 16px;
-line-height: 20px;
-color: #F4F4F4;
+  font-family: "Lexend Deca";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f4f4f4;
 }
 .bar {
   display: inline-block;
@@ -160,7 +161,7 @@ color: #F4F4F4;
 }
 
 .character-display img {
-  width:500px;
+  width: 500px;
   height: auto;
   transition: opacity 0.5s ease-in-out;
 }
@@ -172,15 +173,16 @@ color: #F4F4F4;
 /* NAVIGATION BUTTONS */
 .nav-buttons {
   position: absolute;
-  top: 50%;
+  top: -10%;
   right: 10px;
   transform: translateY(-50%);
 }
 
 .nav-buttons button {
-  background-color: #333;
+  background-color:#555;
   border: none;
-  padding: 10px 15px;
+  width:64px;
+  height:48px;
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
@@ -188,7 +190,7 @@ color: #F4F4F4;
 }
 
 .nav-buttons button:hover {
-  background-color: #555;
+  background-color:#403CFF;
 }
 @media (max-width: 768px) {
   .character-section {

@@ -125,9 +125,11 @@ body {
 }
 .character-card {
   margin-left: 200px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  /* background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px); */
+  background-image: url(/assets/images/blackimage.png);
   padding: 20px;
+  width:50%;
 }
 
 .character-name {
@@ -151,7 +153,6 @@ body {
   margin-bottom: 20px;
   margin-left: -10px;
 }
-
 .stats p {
   margin: 10px 0;
   font-family: "Lexend Deca";
@@ -181,8 +182,6 @@ body {
 .hidden {
   display: none;
 }
-
-/* NAVIGATION BUTTONS */
 .nav-buttons {
   position: absolute;
   top: 10%;

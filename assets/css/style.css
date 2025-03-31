@@ -3,10 +3,8 @@
 body {
   margin: 0;
   padding: 0;
-  /* background-image: url(/assets/images/layer.png);
+  background-image: url(/assets/images/1sectionside.png);
   background-repeat: no-repeat;
-  background-position: 300px;
-  background-position: fixed; */
   color: #ffffff;
   text-align: center;
   background-color: #000000;
@@ -44,6 +42,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.04em;
 }
+
 .text p {
   width: 327px;
   font-family: "Lexend Deca";
@@ -98,6 +97,7 @@ body {
   background-repeat: no-repeat;
 }
 
+
 .subtitle {
   display: block;
   font-family: "Sawarabi Gothic";
@@ -130,6 +130,10 @@ body {
   background-image: url(/assets/images/blackimage.png);
   padding: 20px;
   width:50%;
+}
+@font-face {
+  font-family: "Reality Hyper";
+  src: url(./font/reality_hyper.zip);
 }
 
 .character-name {

@@ -19,8 +19,6 @@ body {
 .top-image{
   margin-left: -70%;
 }
-
-
 .content {
   display: flex;
   align-items: center;
@@ -34,7 +32,6 @@ body {
   max-width: 400px;
   margin: 50px;
 }
-
 .text h2 {
   width: 275px;
   font-family: "Sawarabi Gothic";
@@ -42,7 +39,6 @@ body {
   font-size: 14px;
   letter-spacing: 0.04em;
 }
-
 .text p {
   width: 327px;
   font-family: "Lexend Deca";
@@ -72,18 +68,14 @@ body {
 .social-icons a img:hover {
   background: #403cff;
 }
-
 .image-container img {
   width:500px;
   height: 700px;
 }
-
 .hero {
   text-align: start;
   margin-bottom: 40px;
-
 }
-
 .title {
   font-family: "Reality Hyper";
   font-weight: 400;
@@ -96,8 +88,6 @@ body {
   background-image: url(/assets/images/chara.png);
   background-repeat: no-repeat;
 }
-
-
 .subtitle {
   display: block;
   font-family: "Sawarabi Gothic";
@@ -106,7 +96,8 @@ body {
 }
 
 .description {
-  margin-left: 100px;
+  margin-left: 200px;
+  margin-top: 200px;
   width: 461px;
   font-family: "Lexend Deca";
   font-weight: 300;
@@ -121,12 +112,9 @@ body {
   position: relative;
   background-image: url(/assets/images/2layer.png);
   background-repeat: no-repeat;
-
 }
 .character-card {
   margin-left: 200px;
-  /* background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px); */
   background-image: url(/assets/images/blackimage.png);
   padding: 20px;
   width:50%;
@@ -135,7 +123,6 @@ body {
   font-family: "Reality Hyper";
   src: url(./font/reality_hyper.zip);
 }
-
 .character-name {
   width: 199px;
   font-family: "Reality Hyper";
@@ -176,13 +163,11 @@ body {
   position: relative;
   text-align: center;
 }
-
 .character-display img {
   width: 500px;
   height: auto;
   transition: opacity 0.5s ease-in-out;
 }
-
 .hidden {
   display: none;
 }
@@ -192,7 +177,6 @@ body {
   right: 10px;
   transform: translateY(-50%);
 }
-
 .nav-buttons button {
   background-color:#555;
   border: none;
@@ -203,7 +187,6 @@ body {
   cursor: pointer;
   font-size: 18px;
 }
-
 .nav-buttons button:hover {
   background-color:#403CFF;
 }

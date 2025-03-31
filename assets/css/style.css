@@ -18,6 +18,7 @@ body {
 }
 .top-image{
   margin-left: -70%;
+  top:200px;
 }
 .content {
   display: flex;
@@ -133,7 +134,7 @@ body {
 }
 
 .character-info {
-  width: 408px;
+  width: 385px;
   font-family: "Lexend Deca";
   font-weight: 300;
   font-size: 14px;
@@ -144,11 +145,8 @@ body {
   margin-left: -10px;
 }
 .stats p {
-  margin: 10px 0;
+  margin: 20px 0;
   font-family: "Lexend Deca";
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
   color: #f4f4f4;
 }
 .bar {
